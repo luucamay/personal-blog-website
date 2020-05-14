@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 50px 3fr auto
+   50px;
+  grid-template-areas:
+    "hd"
+    "main"
+    "sd"
+    "ft";
+  border: 2px solid;
+}
+
+header {
+  border: 1px solid red;
+  background-color: salmon;
+  grid-area: hd;
+}
+
+main {
+  background-color: springgreen;
+  grid-area: main;
+}
+
+aside {
+  background-color: royalblue;
+  grid-area: sd;
+}
+
+footer {
+  background-color: seagreen;
+  grid-area: ft;
+}
+
+section {
+  background-color: skyblue;
+}
+
+@media (min-width: 900px) {
+  body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 250px 600px;
+    grid-template-areas:
+      "hd hd hd hd hd hd hd hd"
+      "main main sd sd sd sd sd sd"
+      "ft ft ft ft ft ft ft ft";
+    border: 2px solid red;
+  }
+}
