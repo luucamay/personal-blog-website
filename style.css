@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: var(--text-font);
 }
 
 :root {
@@ -31,7 +32,7 @@ header {
   color: var(--black-solid);
   font-size: 24px;
   grid-area: hd;
-  font-family: var(--text-font);
+  padding: 8px;
 }
 
 nav > ul{
@@ -39,16 +40,42 @@ nav > ul{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 8px;
 }
 
 main {
-  border: 1px solid springgreen;
   grid-area: main;
 }
 
 aside {
+  border: 1px solid #f6f6f6;
+  background: #f6f6f6;
+  padding: 1.25rem;
   grid-area: sd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 16px;
+  border-radius: 10px;
+  margin: 16px;
+}
+
+aside>*{
+  width: 100%;
+  margin: 4px;
+  padding: .375rem .75rem;
+}
+
+aside > input {
+  color: black;
+}
+aside > h2 {
+  text-align: center;
+  color: var(--black-solid);
+}
+
+aside > button {
+  background: var(--primary-color);
 }
 
 footer {
