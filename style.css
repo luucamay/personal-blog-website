@@ -33,7 +33,7 @@ header {
   font-size: 24px;
   border: 1px solid red;
   grid-area: hd;
-  
+  font-family: var(--text-font);
 }
 
 nav > ul{
