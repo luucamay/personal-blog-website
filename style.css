@@ -8,8 +8,8 @@
   --primary-color: #00e676;
   --primary-color-light: #66ffa6;
   --primary-color-night: #00b248;
-  --text-color-soft: #616161;
-  --text-color-solid: #000000de;
+  --black-soft: #616161;
+  --black-solid: #000000de;
   --text-font: Roboto Mono;
 }
 
@@ -24,12 +24,11 @@ body {
     "main"
     "sd"
     "ft";
-  border: 2px solid;
 }
 
 header {
   background-color: var(--primary-color);
-  color: var(--text-color-solid);
+  color: var(--black-solid);
   font-size: 24px;
   grid-area: hd;
   font-family: var(--text-font);
@@ -49,13 +48,18 @@ main {
 }
 
 aside {
-  border: 1px solid royalblue;
   grid-area: sd;
 }
 
 footer {
-  border: 1px solid seagreen;
+  /*
+  border: 1px solid red;
+  */
+  margin-top: auto;
+  border-top: 0.75px solid #aaa;
   grid-area: ft;
+  text-align: center;
+  padding: 4px;
 }
 
 section {
@@ -71,6 +75,5 @@ section {
       "hd hd hd hd hd hd hd hd"
       "main main sd sd sd sd sd sd"
       "ft ft ft ft ft ft ft ft";
-    border: 2px solid red;
   }
 }
