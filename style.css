@@ -31,7 +31,6 @@ header {
   background-color: var(--primary-color);
   color: var(--text-color-solid);
   font-size: 24px;
-  border: 1px solid red;
   grid-area: hd;
   font-family: var(--text-font);
 }
