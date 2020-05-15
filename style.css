@@ -45,36 +45,40 @@ nav > ul {
 main {
   box-sizing: border-box;
   grid-area: main;
-  margin: 1.25rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  align-items: center;
 }
 
 
 .blogpost-card {
-  margin-top: 4px;
-  margin-bottom: 36px;
+  margin-top: 8px;
+  margin-bottom: 24px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: auto;
+  width: 300px;
 }
-
 
 img {
   height: 100%;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 5px;
   margin-bottom: 8px;
 }
 
 a {
   text-decoration: none;
-  color: var(--primary-color-night);
+  color: var(--black-soft);
 }
 
+a:hover {
+  text-decoration: underline;
+  color: var(--black-soft);
+}
 .blogpost-card > a > h2 {
-  font-weight: normal;
+  font-weight: 500;
 }
 
 .blogpost-card > p {
@@ -83,7 +87,6 @@ a {
 }
 
 aside {
-  border: 1px solid #f6f6f6;
   background: #f6f6f6;
   padding: 1.25rem;
   grid-area: sd;

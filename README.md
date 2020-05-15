@@ -1,10 +1,13 @@
 # personal-blog-website
 Personal Blog Website Project
 # TODO
-- [] a header -> navigation bar
+- [x] a header -> navigation bar
 - [x] a footer
 - [] a section tag
-- [] a main tag
+- [x] a main tag
 - [] an article tag
-- [] aside
-- [] When adding a twitter button it tracks your info
+- [x] aside
+
+# Learned
+- When adding a twitter button it tracks your info
+- If you want to try something new always create a new branch
