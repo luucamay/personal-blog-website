@@ -1,0 +1,78 @@
+@import "./variables.css";
+@import "./blog-cards.css";
+@import "./newsletter-card.css";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: var(--text-font);
+}
+
+body {
+  display: grid;
+  height: 100vh;
+  grid-template-rows:
+    50px 3fr auto
+    50px;
+  grid-template-areas:
+    "hd"
+    "main"
+    "sd"
+    "ft";
+}
+
+header {
+  background-color: var(--primary-color);
+  color: var(--black-solid);
+  font-size: 24px;
+  grid-area: hd;
+  padding: 8px;
+}
+
+nav > ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+main {
+  box-sizing: border-box;
+  grid-area: main;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+aside {
+  background: #f6f6f6;
+  padding: 1.25rem;
+  grid-area: sd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 16px;
+  border-radius: 10px;
+  margin: 16px;
+}
+
+footer {
+  margin-top: auto;
+  border-top: 0.75px solid #aaa;
+  grid-area: ft;
+  text-align: center;
+  padding: 4px;
+}
+
+section {
+  border: 1px solid skyblue;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
