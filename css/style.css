@@ -1,6 +1,7 @@
 @import "./variables.css";
 @import "./blog-cards.css";
 @import "./newsletter-card.css";
+@import "./article.css";
 
 * {
   box-sizing: border-box;
@@ -38,6 +39,7 @@ nav > ul {
 }
 
 main {
+  border: 1px solid red;
   box-sizing: border-box;
   grid-area: main;
   display: flex;

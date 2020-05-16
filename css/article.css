@@ -1,0 +1,24 @@
+article {
+  margin: 16px;
+}
+
+article > h1 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1em;
+}
+
+.article-subtitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.article-body {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+article > a {
+  text-decoration: none;
+  color: steelblue;
+}
