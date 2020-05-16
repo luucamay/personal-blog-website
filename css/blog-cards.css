@@ -1,0 +1,28 @@
+.blogpost-card {
+  margin-top: 8px;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+  width: 300px;
+}
+
+.blogpost-card > a {
+  text-decoration: none;
+  color: var(--black-soft);
+}
+
+.blogpost-card > a:hover {
+  text-decoration: underline;
+  color: var(--black-soft);
+}
+
+.blogpost-card > a > h2 {
+  font-weight: 500;
+}
+
+.blogpost-card > p {
+  color: var(--black-soft);
+  font-weight: lighter;
+}
