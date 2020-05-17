@@ -7,7 +7,7 @@ aside > * {
 aside > input {
   color: black;
 }
-aside > h2 {
+aside > h3 {
   text-align: center;
   color: var(--black-solid);
 }
