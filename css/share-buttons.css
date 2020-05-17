@@ -1,0 +1,47 @@
+.share-buttons {
+  display: flex;
+  margin-top: 8px;
+}
+
+.icon {
+  width: 12px;
+  height: 12px;
+  fill: #fff;
+  margin-right: 4px;
+}
+
+.share-button {
+  border-radius: 0.25rem;
+  color: white;
+  padding: 0.25em 0.4em;
+  margin-right: 8px;
+  font-size: 75%;
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.shape-tweet {
+  background-color: #1da1f2;
+}
+
+.shape-tweet:hover {
+  background-color: #0073bf;
+}
+
+.shape-facebook {
+  background-color: #3b5998;
+}
+
+.shape-facebook:hover {
+  background-color: #2d4373;
+}
+
+.shape-mail {
+  background-color: #dc3545;
+}
+
+.shape-mail:hover {
+  background-color: #bd2130;
+}

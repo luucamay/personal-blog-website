@@ -2,6 +2,7 @@
 @import "./blog-cards.css";
 @import "./newsletter-card.css";
 @import "./article.css";
+@import "./share-buttons.css";
 
 * {
   box-sizing: border-box;
@@ -77,63 +78,4 @@ img {
   width: 100%;
   border-radius: 5px;
   margin-bottom: 8px;
-}
-
-.tweet-button {
-  display: inline-block;
-  width: 55px;
-  height: 21px;
-  background-image: url(http://platform.twitter.com/widgets/images/tweet.dfbf1dd98bad9f5b5addd80494650dca.png);
-  background-position: 0 0;
-}
-.tweet-button:hover {
-  background-position: 0 -21px;
-}
-
-.badge-facebook {
-  color: #fff;
-  background-color: #3b5998;
-}
-a.badge-facebook:focus,
-a.badge-facebook:hover {
-  color: #fff;
-  background-color: #2d4373;
-}
-a.badge-facebook.focus,
-a.badge-facebook:focus {
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(59, 89, 152, 0.5);
-}
-.badge {
-  display: inline-block;
-  padding: 0.25em 0.4em;
-  font-size: 75%;
-  font-weight: 700;
-  line-height: 1;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: baseline;
-  border-radius: 0.25rem;
-  text-decoration: none;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-}
-.icon {
-  background-color: #000;
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  fill: #fff;
-}
-
-.shape-tweet {
-  background-color: #1da1f2;
-  border-radius: 0.25rem;
-  color: white;
-  padding: 0.25em 0.4em;
-  font-size: 12px;
-}
-
-.shape-tweet:hover {
-  background-color: #0073bf;
 }
