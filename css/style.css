@@ -3,6 +3,7 @@
 @import "./newsletter-card.css";
 @import "./article.css";
 @import "./share-buttons.css";
+@import "./author.css"
 
 * {
   box-sizing: border-box;
