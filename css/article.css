@@ -1,7 +1,7 @@
 article {
   margin: 16px;
 }
-
+jj
 article > h1 {
   font-size: 36px;
   font-weight: 700;
@@ -10,7 +10,10 @@ article > h1 {
 
 .article-subtitle {
   display: flex;
-  justify-content: space-between;
+  color: var(--black-soft);
+}
+.article-subtitle > p {
+  margin-right: 8px;
 }
 
 .article-body {

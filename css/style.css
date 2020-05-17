@@ -79,3 +79,7 @@ img {
   border-radius: 5px;
   margin-bottom: 8px;
 }
+
+.hide {
+  display: none;
+}
