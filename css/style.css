@@ -1,10 +1,10 @@
 @import "./variables.css";
-@import "./blog-cards.css";
-@import "./newsletter-card.css";
 @import "./article.css";
-@import "./share-buttons.css";
 @import "./author-card.css";
 @import "./author-page.css";
+@import "./blog-cards.css";
+@import "./newsletter-card.css";
+@import "./share-buttons.css";
 
 * {
   box-sizing: border-box;
