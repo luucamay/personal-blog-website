@@ -1,10 +1,10 @@
 @import "./variables.css";
-@import "./blog-cards.css";
-@import "./newsletter-card.css";
 @import "./article.css";
-@import "./share-buttons.css";
 @import "./author-card.css";
 @import "./author-page.css";
+@import "./blog-cards.css";
+@import "./newsletter-card.css";
+@import "./share-buttons.css";
 
 * {
   box-sizing: border-box;
@@ -31,7 +31,7 @@ header {
   color: var(--black-solid);
   font-size: 24px;
   grid-area: hd;
-  padding: 8px;
+  padding: 8px 16px;
 }
 
 nav > ul {
@@ -84,6 +84,21 @@ a {
 main a {
   text-decoration: none;
   color: steelblue;
+}
+footer p {
+  margin-bottom: 0;
+}
+footer a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #1da1f2;
+  border-radius: 0.25rem;
+  padding: 4px;
+  font-size: 16px;
+}
+
+footer a:hover {
+  background-color: #0073bf;
 }
 
 .hide {
