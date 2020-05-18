@@ -85,6 +85,21 @@ main a {
   text-decoration: none;
   color: steelblue;
 }
+footer p {
+  margin-bottom: 0;
+}
+footer a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #1da1f2;
+  border-radius: 0.25rem;
+  padding: 4px;
+  font-size: 16px;
+}
+
+footer a:hover {
+  background-color: #0073bf;
+}
 
 .hide {
   display: none;
