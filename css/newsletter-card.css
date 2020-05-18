@@ -1,3 +1,15 @@
+aside {
+  background: #f6f6f6;
+  padding: 1.25rem;
+  grid-area: sd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
 aside > * {
   width: 100%;
   margin: 4px;

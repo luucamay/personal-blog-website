@@ -1,7 +1,3 @@
-article {
-  margin: 16px;
-}
-jj
 article > h1 {
   font-size: 36px;
   font-weight: 700;
@@ -21,7 +17,7 @@ article > h1 {
   padding-bottom: 16px;
 }
 
-article > a {
+main a {
   text-decoration: none;
   color: steelblue;
 }

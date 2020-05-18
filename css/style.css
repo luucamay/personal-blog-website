@@ -3,6 +3,8 @@
 @import "./newsletter-card.css";
 @import "./article.css";
 @import "./share-buttons.css";
+@import "./author-card.css";
+@import "./author-page.css";
 
 * {
   box-sizing: border-box;
@@ -40,7 +42,6 @@ nav > ul {
 }
 
 main {
-  border: 1px solid red;
   box-sizing: border-box;
   grid-area: main;
   display: flex;
@@ -48,16 +49,8 @@ main {
   align-items: center;
 }
 
-aside {
-  background: #f6f6f6;
-  padding: 1.25rem;
-  grid-area: sd;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  font-size: 16px;
-  border-radius: 10px;
+aside,
+main {
   margin: 16px;
 }
 
@@ -80,6 +73,13 @@ img {
   margin-bottom: 8px;
 }
 
+p,
+a {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-bottom: 1.125rem;
+}
 .hide {
   display: none;
 }
