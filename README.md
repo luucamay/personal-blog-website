@@ -7,6 +7,7 @@ Personal Blog Website Project
 - [x] a main tag
 - [x] an article tag
 - [x] aside
+- [ ] add media queries to get a responsive view
 
 ## Learned
 - When adding a twitter button it tracks your info
