@@ -4,6 +4,7 @@
 @import "./article.css";
 @import "./share-buttons.css";
 @import "./author-card.css";
+@import "./author-page.css";
 
 * {
   box-sizing: border-box;
