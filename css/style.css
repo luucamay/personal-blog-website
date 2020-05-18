@@ -80,6 +80,12 @@ a {
   font-weight: 400;
   margin-bottom: 1.125rem;
 }
+
+main a {
+  text-decoration: none;
+  color: steelblue;
+}
+
 .hide {
   display: none;
 }
