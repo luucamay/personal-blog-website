@@ -1,12 +1,20 @@
-@media (min-width: 900px) {
-    body {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 250px 600px;
-      grid-template-areas:
-        "hd hd hd hd hd hd hd hd"
-        "main main sd sd sd sd sd sd"
-        "ft ft ft ft ft ft ft ft";
-    }
+/* Medium Screens */
+@media (min-width: 480px) and (max-width: 900px) {
+  main {
+    width: 540px;
+    border: solid red;
   }
-  
+}
+
+/* Large Screens */
+@media (min-width: 901px) {
+  body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 250px 600px;
+    grid-template-areas:
+      "hd hd hd hd hd hd hd hd"
+      "main main sd sd sd sd sd sd"
+      "ft ft ft ft ft ft ft ft";
+  }
+}
