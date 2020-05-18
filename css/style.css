@@ -49,7 +49,8 @@ main {
   align-items: center;
 }
 
-aside, main {
+aside,
+main {
   margin: 16px;
 }
 
@@ -72,6 +73,13 @@ img {
   margin-bottom: 8px;
 }
 
+p,
+a {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-bottom: 1.125rem;
+}
 .hide {
   display: none;
 }

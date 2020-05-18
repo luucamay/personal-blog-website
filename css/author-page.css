@@ -1,5 +1,4 @@
 #author-page {
-  border: solid salmon;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,4 +29,10 @@
 }
 #personal-links .icon {
   fill: steelblue;
+}
+
+#author-description ul {
+  display: block;
+  padding-left: 40px;
+  margin-bottom: 1.125rem;
 }
