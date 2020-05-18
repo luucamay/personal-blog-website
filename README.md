@@ -3,9 +3,9 @@ Personal Blog Website Project
 ## TODO
 - [x] a header -> navigation bar
 - [x] a footer
-- [] a section tag
+- [x] a section tag
 - [x] a main tag
-- [] an article tag
+- [x] an article tag
 - [x] aside
 
 ## Learned
