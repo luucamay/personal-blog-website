@@ -32,6 +32,14 @@ header {
   font-size: 24px;
   grid-area: hd;
   padding: 8px 16px;
+  position: fixed;
+  width: 100%;
+}
+
+header a{
+  text-decoration: none;
+  color: var(--black-solid);
+  font-size: 1em;
 }
 
 nav > ul {
