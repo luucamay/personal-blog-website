@@ -1,4 +1,4 @@
-# personal-blog-website
+# Blog for Latinas in Cloud
 Personal Blog Website Project
 ## TODO
 - [x] a header -> navigation bar
